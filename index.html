@@ -1,9 +1,172 @@
-<DOCTYPE html>
+<!DOCTYPE html>
 <html>
-    <head>
-        <title>potfolio</title>
-    </head>>
-    <body>
-        <p>hello world</p>
-    </body>
+<head>
+    <title>potfolio</title>
+    
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <!-- <link rel="stylesheet" href="assets/css/style.css"> -->
+    <style>
+        html, body {
+             height: 100%;
+        }
+        body{
+            margin:0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            font-size: 16px;
+            background-image: url("./assets/images/tic-tac-toe.png");
+        }
+        .fw {
+            width: 100%;
+            margin: 0px;
+            /* background-color: #666666; */
+        }
+        .wrapper {
+            flex: 1 0 auto;
+           
+        }
+        .container{
+            width: 960px;
+            margin: 0 auto;
+        }
+        header{
+            background-color: #fff;
+            border-bottom: 2px solid #4aaaa5;
+            height: 90px;
+        }
+        footer {
+            background-color: #666666;
+            flex-shrink: 0;
+            border-top: 5px solid #4aaaa5;
+            text-align: center;
+        }
+        .header-content, .footer-content{
+            padding: 20px 0;
+        }
+        .name-wrap{
+            display: inline-block;
+            padding-bottom: 25px
+        }
+        nav {
+            display: inline-block;
+            float: right;
+        }
+        .heading {
+            padding: 25px 25px;
+            border-bottom: 3.5px solid  #dddddd;
+            font-family: 'Georgia', Times, Times New Roman, serif;
+            font-size: 20px 
+         
+        }
+        h1 {
+            font-size: 2em;
+        }
+        h2 {
+            font-size: 1.5em;
+        }
+        input, textarea {
+            display: block;
+            width: 100%;
+            margin: 20px 0;
+        }
+      .name-wrap {
+          background-color: #4aaaa5;
+          padding-top: 12px;
+      }
+      .name-wrap h1 {
+          margin: 10px;
+      }
+      .image-in{
+          border: 2px solid;
+          display: inline-block;
+      }
+    
+     .image-float{
+         float: left;
+
+     }
+     .portfolio-wrap{
+         /* background-color: red; */
+         /* border:  3px  solid#791717; */
+         height:500px;
+         margin-top: 10px;
+         margin-left: 25px;
+         margin-right: 25px;
+     }
+     
+      #portfolio{
+         background-color: #ffffff;
+         margin-top: 40px;
+         border:  2px solid #dddddd;
+     }
+     .para{
+         font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+         font-size: 25px;
+
+     }
+     img{
+         float: left;
+     }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="fw">
+            <div class="container">
+                <div class="row">
+                <div class="name-wrap">
+                    <h1>Lesley Banadzem</h1>
+                </div>
+                <!-- <div class="header-content"> -->
+                        <nav>
+                            <a  id="about-nav"href="index.html">About</a>
+                            <a id=" portfolio-nav" href="portfolio.html">Portfolio</a>
+                            <a id" contact-nav" href="contact.html">Contact</a>
+                        </nav>
+                <!-- </div> -->
+                </div>
+                
+            </div>
+        </header>
+        
+        <div  class="container">
+            <section class="main-content">
+                <div id="portfolio">
+                    <div class="heading">
+                        <h2>About Me</h2>
+                    </div>
+                    <div class="portfolio-wrap">
+                      
+                    <div class="para">
+
+                        <p><img  src="assets/images/download.jpg" alt="lesley's image" width="200px" height="200px">
+                            I move to San francisco from Cameroon, Africa. I have a bachelor's degree in Finance 
+                            from the catholic university of Cameroon, Bamenda were i studied for 3 years. I am 
+                            currently taking a course in coding. I really like computers and how the work and have
+                            always been interested in computers ever since i was a little kid, even though computers,
+                            were luxury and difficult to lay hands on given what part of the world i’m from. I feel 
+                            opportuned to be in this to be in this country and doing this program.</p>
+                            <P>
+                                    Eu accusam appareat his. Est no mazim dignissim temporibus. No ullum dicam dolorem pri, verterem rationibus an his, autem menandri tincidunt cu has. Facer mentitum pro ne, ex prima errem vim. Affert moderatius ei est, eos salutatus abhorreant id.
+
+                            </P>
+
+                    </div>
+                           
+
+                    </div>
+                </div>
+            </section>
+        </div>
+       
+    </div>
+    <footer class="fw">
+        <div class="container">
+            <div class="footer-content">
+                <p> Copyright ©</p>
+            </div>
+        </div>
+    </footer>
+</body>
 </html>

@@ -1,0 +1,97 @@
+body{
+    background-color:#dddddd;
+    background-image: url("../images/tic-tac-toe.png");
+}
+#whole-border{
+    position: absolute;
+    background: #ffffff;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    
+}
+#container{
+    background-color: l #ffffff;
+    width: 80%;
+    margin-left: 10%
+}
+#head{
+    text-align: center;
+    background-color:#4aaaa5 ;
+    color:#ffffff;
+    width: 20%;
+    height: 50px;
+    margin-right: 150px;
+    font-size: 25px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    margin-left: 50px;
+    margin-top: 50px;
+
+}
+h2{
+    color: #4aaaa5;
+}
+/* send the porfolio, about, contact to top-right */
+#to-right{
+   
+   position: absolute;
+    top: 75px;
+    right:170px;
+    background-color: #ffffff;
+    margin-right: 50px;
+    ;
+
+}
+#bout{
+    text-align: center;
+    color: #777777;
+    background-color: #ffffff;
+    width: 90px;
+    padding: 5px;
+    float: right;
+
+}
+#porto{
+    text-align: center;
+    color:#777777;
+    background-color: #ffffff;
+    width: 90px;
+    padding: 5px;
+    float: left;
+  
+   
+
+}
+#cont{
+    text-align: center;
+    color: #777777;
+    width: 10%;
+    /* background-color: magenta; */
+    width: 90px;
+    padding: 5px;
+    float: left;
+}       
+#whole-sec{
+    background-color:  #ffffff;
+    width: 74%;
+    margin-left: 13%;
+    border: solid 2px;
+
+}
+#peid{
+    position: absolute;
+    text-align: center;
+    padding: 25px;
+    background-color: #666666;
+    bottom: 0px;
+    right:0px;
+    left: 0px;
+}
+   #para{
+       color:#777777;
+       height: 400px
+   }
+  img{
+      float: left;
+  }
