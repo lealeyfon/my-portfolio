@@ -1,115 +1,65 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en-us">
+
 <head>
-    <title>potfolio</title>
-    
-    <link rel="stylesheet" href="assets/css/reset.css">
-    <!-- <link rel="stylesheet" href="assets/css/style.css"> -->
-    <style>
-        html, body {
-             height: 100%;
-        }
-        body{
-            margin:0;
-            padding: 0;
-            display: flex;
-            flex-direction: column;
-            font-size: 16px;
-            background-image: url("./assets/images/tic-tac-toe.png");
-        }
-        .fw {
-            width: 100%;
-            margin: 0px
-        }
-        .wrapper {
-            flex: 1 0 auto;
-        }
-        .container{
-            width: 960px;
-            margin: 0 auto;
-        }
-        header{
-            background-color: #fff;
-            border-bottom: 2px solid #4aaaa5;
-        }
-        footer {
-            background-color: #fff;
-            flex-shrink: 0;
-            border-top: 2px solid #4aaaa5;
-            text-align: center;
-        }
-        .header-content, .footer-content{
-            padding: 20px 0;
-        }
-        .name-wrap{
-            display: inline-block;
-        }
-        nav {
-            display: inline-block;
-            float: right;
-        }
-        .heading {
-            padding: 20px 0;
-            border-bottom: 1px solid #000;
-        }
-        h1 {
-            font-size: 2em;
-        }
-        h2 {
-            font-size: 1.5em;
-        }
-        input, textarea {
-            display: block;
-            width: 100%;
-            margin: 20px 0;
-        }
-      .name-wrap {
-          background-color: aqua;
-      }
-      .name-wrap h1 {
-          margin: 10px;
-      }
-    </style>
+  <meta charset="UTF-8">
+  <title>Portfolio | Your Name</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
+
 <body>
-    <div class="wrapper">
-        <header class="fw">
-            <div class="container">
-                <div class="name-wrap">
-                    <h1>Lesley Banadzem</h1>
-                 </div>
-                <div class="header-content">
-                    
-                        <nav>
-                            <a href="index.html">About</a>
-                            <a href="portfolio.html">Portfolio</a>
-                            <a href="contact.html">Contact</a>
-                        </nav>
-                </div>
-                
-            </div>
-        </header>
-        
-        <div  class="container">
-            <section class="main-content">
-                <div id="portfolio">
-                    <div class="heading">
-                        <h2>Portfolio</h2>
-                    </div>
-                    <div class="portfolio-wrap">
-                        
-                    </div>
-                </div>
-            </section>
-        </div>
-       
+
+  <header id="masthead">
+    <div class="container">
+      <a href="index.html" id="logo"> Lesley Banadzem Fonsi</a>
+      <nav>
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
     </div>
-    <footer class="fw">
-        <div class="container">
-            <div class="footer-content">
-                <p>Copyright ©</p>
-            </div>
-        </div>
-    </footer>
+  </header>
+
+  <div id="main-container" class="container">
+    <section class="main-section">
+      <h1>Portfolio</h1>
+
+      <div class="work">
+        <img src="assets/images/technics-q-c-640-480-1.jpg" alt="Word Guess">
+        
+        <h3>Word Guess</h3>
+      </div>
+      <div class="work">
+        <img src="assets/images/technics-q-c-640-480-2.jpg" alt="RPG Game">
+
+        <h3>RPG Game</h3>
+      </div>
+      <div class="work">
+        <img src="assets/images/technics-q-c-640-480-5.jpg" alt="Trivia Game">
+
+        <h3>Trivia Game</h3>
+      </div>
+      <div class="work">
+        <img src="assets/images/technics-q-c-640-480-7.jpg" alt="Rutgers Info Widget">
+
+        <h3>Rutgers Info Widget</h3>
+      </div>
+      <div class="work">
+        <img src="assets/images/technics-q-c-640-480-9.jpg" alt="Rock Paper Scissors">
+
+        <h3>Rock Paper Scissors</h3>
+      </div>
+
+    </section>
+
+  </div>
+
+  <footer>
+    <div class="container">
+      Copyright &copy; 
+    </div>
+  </footer>
 </body>
+
 </html>
