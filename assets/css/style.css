@@ -255,7 +255,17 @@ input[type=submit] {
     background: #fff;
     border: 1px solid #ddd;
   }
-
+ 
+  .main-section{
+  float: left;
+  width: 600px;
+  height: 100%;
+  max-width: 960px;
+  padding: 30px;
+  margin: 0 40px 40px;
+  background: #fff;
+  border: 1px solid #ddd;
+  }
   .auth-image {
     float: left;
     width: 160px;
@@ -302,7 +312,7 @@ input[type=submit] {
   .main-section {
     float: left;
     width: 650px;
-    height: 600px;
+    height: 100%;
     font-size: 70%;
     max-width: 960px;
     padding: 30px;
@@ -313,7 +323,7 @@ input[type=submit] {
 
   .auth-image {
     float: left;
-    width: 300px;
+    width: 320px;
     height: auto;
     margin-top: 5px;
     margin-right: 12.5px;
@@ -327,5 +337,57 @@ input[type=submit] {
 
 }
 @media screen and (max-width: 640px){
+  #masthead {
+    position: fixed;
+    z-index: 99;
+    width: 760px;
+    margin: 0 0 30px;
+    overflow: auto;
+    color: #fff;
+    background: #fff;
+    border-bottom: 2px solid #ccc;
+  }
+
+  #logo {
+    float: left;
+    width: 210px;
+    height: 75px;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 90px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    background: #4aaaa5;
+    margin-left: 40px
+  }
+
+  .main-section {
+    float: left;
+    width: 500px;
+    height: 100%;
+    font-size: 70%;
+    max-width: 640px;
+    padding: 30px;
+    margin: 0 40px 40px ;
+    background: #fff;
+    border: 1px solid #ddd;
+  }
+
+  .auth-image {
+    float: left;
+    width: 420px;
+    height: auto;
+    margin-top: 5px;
+    margin-right: 12.5px;
+  }
+
+  nav {
+    float: right;
+    margin-top: 25px;
+    margin-right: 100px;
+  } 
+
 
 }
