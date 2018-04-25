@@ -1,7 +1,7 @@
 #My Portfolio
   
 I am going to talk trough my code basically listing every element and saying what its use is in my html
- ## Head yag
+ ## Head tag
  The head element is a container for all the head elements. The head element can include a title for the document, scripts, styles, meta information, and more. The following elements can go inside the head element:
 *title ( This is the Name of the page you are going to see at the top of the browser) 
 *style (the style The style tag is used to define style information for an HTML document.Inside the style element you specify how HTML elements should render in a browser.Each HTML document can contain multiple style tags)
