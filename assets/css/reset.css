@@ -93,7 +93,7 @@ video {
 }
 /* HTML5 display-role reset for older browsers */
 article,
-aside,
+aside
 details,
 figcaption,
 figure,
@@ -105,9 +105,11 @@ nav,
 section {
   display: block;
 }
-
+#git-link{
+  margin-left: 90px;
+}
 body {
-  line-height: 1;
+  line-height: 2;
 }
 
 ol,
